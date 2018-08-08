@@ -1,0 +1,12 @@
+[default]
+serveraliveinterval = 45
+compression = yes
+compressionlevel = 9
+forward = yes
+
+[bitbuch et.org]
+uesr = hg
+
+[yuan]
+y2 = 222222
+

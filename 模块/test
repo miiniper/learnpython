@@ -1,0 +1,13 @@
+[default]
+serveraliveinterval = 45
+compression = yes
+compressionlevel = 9
+forward = yes
+
+[bitbuch et.org]
+uesr = hg
+
+[topsecret.server.com]
+host port  = 10000
+forward = no
+
