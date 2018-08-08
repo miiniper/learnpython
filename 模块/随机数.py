@@ -29,19 +29,36 @@ import random
 # chr(65-90)#a-z
 # chr(97-122)#A-Z
 
-num_list = list(range(10))
-new_num_l=list(map(str,num_list))
-l =[]
-for i in range(65,93):
-    zifu=chr(i)
-    l.append(zifu)
+# num_list = list(range(10))
+# new_num_l=list(map(str,num_list))
+# l =[]
+# for i in range(65,93):
+#     zifu=chr(i)
+#     l.append(zifu)
+#
+# new_num_l.extend(l)
+# print(new_num_l)
+# ret_l=[]
+# for i in range(4):
+#     ret_l.append(random.choice(new_num_l))
+# print(''.join(ret_l))
+#
 
-new_num_l.extend(l)
-print(new_num_l)
-ret_l=[]
-for i in range(4):
-    ret_l.append(random.choice(new_num_l))
-print(''.join(ret_l))
+def myrandom():
+    new_num_l=list(map(str,range(10)))
+    l = [chr(i) for i in range(65,93)]
+    new_num_l.extend(l)
+    ret_l=[random.choice(new_num_l) for i in range(4)]
+    return ''.join(ret_l)
+print(myrandom())
+
+print(chr(78))
+
+
+
+
+
+
 
 
 
