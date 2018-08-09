@@ -213,19 +213,55 @@
 #
 # config.set('yuan','y2','222222')
 # config.write(open('test2','w'))
+#
+# import os
+# d1 =os.getcwd()
+# print(d1)
+# os.chdir('D:/安装/github/learnpython/')
+# d2 = os.getcwd()
+# print(d2)
+# os.chdir(d1)
+# print(os.getcwd())
 
+import os
 
+# ret1 = os.system('dir')
+# ret2  = os.popen('dir')
+# print(ret1)
+# print(ret2.read())
+#os.mkdir('test')
+# os.mkdir('dirtest')
+# os.removedirs('dirtest')
+#os.makedirs(r'dirtest\inner',exist_ok=True)
+# d= os.getcwd()
+# f = open(r'ttt.txt','w')
+# f.close()
+#os.rename('tttt','ha.txt')
+#os.remove('ha.txt')
+#os.remove('ttt.txt')
 
+# print(os.listdir(os.getcwd()))
+# print(os.walk(os.getcwd()))
+# ret = os.walk(os.getcwd())
+# print(list(ret))
 
+# print(os.stat('D:/安装/github/learnpython/模块/'))
+# print(os.sep)
+# print(os.getcwd())
 
-
-
-
-
-
-
-
-
+# file_path = '%s%s%s'%(os.getcwd(),os.sep,'fiek')
+# print(file_path)
+# print(os.path.join(os.getcwd(),'dsfaf'))
+# print(os.name)
+# print(os.environ)
+#
+# print(os.path.abspath('入门.py'))
+# print(os.path.dirname('入门.py'))
+# print(os.path.abspath('入门.py'))
+# print(os.path.dirname(os.path.abspath('入门.py')))
+# print(os.path.dirname(os.path.dirname(os.path.abspath('入门.py'))))
+# print(os.path.exists(os.path.abspath('入门.py')))
+#
 
 
 
