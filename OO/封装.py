@@ -80,51 +80,81 @@
 # print(apple._Goods__discount)
 #
 #########################################################################################
-class Teacher:
-    __school = 'ifeng'
-    def __init__(self,name,salary):
-        self.name = name
-        self.__salary = salary
+# class Teacher:
+#     __school = 'ifeng'
+#     def __init__(self,name,salary):
+#         self.name = name
+#         self.__salary = salary
+#
+#     def foo(self):
+#         print('====================')
+#
+# t  = Teacher('han',100)
+# print(t.__dict__)
+# print(t._Teacher__salary)
+# print(t._Teacher__school)
+# t.foo()
+##############################################################################################
+# class Person:
+#     def __init__(self, name, heigth, weigth, sex):
+#         self.__nam = name
+#         self.__heigth = heigth
+#         self.__weigth = weigth
+#         self.__sex = sex
+#
+#     def tell_bmi(self):
+#         return self.__weigth / self.__heigth ** 2
+#
+#     def tell_heigth(self):
+#         print(self.__heigth)
+#
+#     def tell_weigth(self):
+#         print(self.__weigth)
+#
+#     def set_weigth(self, new_weigth):
+#         if new_weigth > 20 and new_weigth < 200:
+#             self.__weigth = new_weigth
+#         else:
+#             raise TypeError('error')
+#
+# te = Person('te',170,65,'boy')
+# print(te.tell_bmi())
+# print(te.__dict__)
+# te.set_weigth(63)
+# print(te.tell_weigth())
 
-    def foo(self):
-        print('====================')
-
-t  = Teacher('han',100)
-print(t.__dict__)
-print(t._Teacher__salary)
-print(t._Teacher__school)
-t.foo()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##############################################################################################
+#
+# class People:
+#     def __init__(self, name, age, sex, h):
+#         self.__name = name
+#         self.__age = age
+#         self.__sex = sex
+#         self.__h = h
+#
+#     def tell_name(self):
+#         print(self.name)
+#
+#     def set_name(self, rename):
+#         if not isinstance(rename, str):
+#             raise TypeError('error')
+#         self.__name = rename
+#
+#     def tell_info(self):
+#         print('''
+#         name :%s
+#         age:%s
+#         sex:%s
+#         h: %s
+#         ''' % (self.__name, self.__age, self.__sex, self.__h))
+#
+#
+# p1 = People('han', 21, 'boy', 170)
+# p1.tell_info()
+# p1.set_name('haha')
+# p1.tell_info()
+#
+#
 
 
 
