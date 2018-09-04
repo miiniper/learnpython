@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4370a73c-f333-46ee-a8b3-0aca33226214" name="test72" url="http://10.21.8.72">
+        <fileTransfer host="10.21.8.72" port="22" privateKey="D:\业务\服务器密钥\id_rsa" rootFolder="/home/hanlei3/pycharm" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
